@@ -1,0 +1,16 @@
+{
+    "require": {
+        "irazasyed/telegram-bot-sdk": "*",
+        "p3k/emoji-detector": "*",
+        "consoletvs/charts": "7.*",
+        "image-charts/image-charts": "*",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tools\\": "Tools",
+            "Tools\\Prepare\\": "Tools\\Prepare",
+            "Tools\\Do\\": "Tools\\Do"
+        }
+    }
+}
